@@ -1,4 +1,4 @@
-pdx-list-ui
+px-list-ui
 ===========
 
-A simple, keyline-delimited blocky list object for Predix Design Extension
+A simple, keyline-delimited blocky list object for Predix Experience

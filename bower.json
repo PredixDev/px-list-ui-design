@@ -1,10 +1,10 @@
 {
-  "name": "pdx-list-ui",
+  "name": "px-list-ui",
   "version": "0.0.1",
   "authors": [
     "General Electric"
   ],
-  "description": "A simple, keyline-delimited blocky list object for Predix Design Extension",
+  "description": "A simple, keyline-delimited blocky list object for Predix Experience",
   "main": "_objects.list-ui.scss",
   "keywords": [
     "pdx",
@@ -12,7 +12,7 @@
     "list-ui"
   ],
   "license": "Apache 2",
-  "homepage": "git@github.sw.ge.com:jrogerson/pdx-list-ui.git",
+  "homepage": "git://github.sw.ge.com/jrogerson/px-list-ui.git",
   "private": true,
   "ignore": [
     "**/.*",
