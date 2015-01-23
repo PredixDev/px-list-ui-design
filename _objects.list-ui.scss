@@ -1,8 +1,11 @@
-.list-ui > li, .list-ui__item {
-  &:last-child {
-    border-bottom-width: 0;
-    @include media-query(desk) {
-      border-bottom-width: 1px;
+@if ($inuit-list-ui-border-width > 0) {
+
+  .list-ui > li, .list-ui__item {
+    &:last-child {
+      border-bottom-width: 0;
+      @include media-query(desk) {
+        border-bottom-width: 1px;
+      }
     }
   }
 }
