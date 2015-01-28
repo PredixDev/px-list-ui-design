@@ -20,5 +20,9 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "inuit-list-ui": "~0.4.1",
+    "px-defaults": "git://github.sw.ge.com/jrogerson/px-defaults.git#ref-page-one"
+  }
 }
