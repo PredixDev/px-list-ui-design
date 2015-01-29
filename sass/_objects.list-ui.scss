@@ -1,23 +1,32 @@
 @import "lib/px-defaults/sass/settings.defaults";
+@import "lib/inuit-responsive-settings/settings.responsive";
 @import "lib/inuit-functions/tools.functions";
+@import "lib/px-responsive-tools/sass/tools.responsive";
 @import "lib/inuit-list-ui/objects.list-ui";
 
-@if ($inuit-list-ui-border-width > 0) {
+$inuit-list-ui-border-width : 0;
+$inuit-enable-list-ui--tiny : true;
 
-  .list-ui > li, .list-ui__item {
-    &:last-child {
-      border-bottom-width: 0;
-      @include media-query(desk) {
-        border-bottom-width: 1px;
+@if import-once('objects.list-ui') {
+
+  @if ($inuit-list-ui-border-width > 0) {
+  
+    .list-ui > li, .list-ui__item {
+      &:last-child {
+        border-bottom-width: 0;
+        @include media-query(desk) {
+          border-bottom-width: 1px;
+        }
       }
     }
   }
-}
+  
+  .list-ui-ml {
+    margin-left: -$inuit-base-spacing-unit;
+  }
+  
+  .list-ui-pl {
+    padding-left: $inuit-base-spacing-unit;
+  }
 
-.list-ui-ml {
-  margin-left: -$inuit-base-spacing-unit;
-}
-
-.list-ui-pl {
-  padding-left: $inuit-base-spacing-unit;
 }
