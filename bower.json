@@ -23,6 +23,7 @@
   ],
   "dependencies": {
     "inuit-list-ui": "~0.4.1",
-    "px-defaults": "git://github.sw.ge.com/jrogerson/px-defaults.git#master"
+    "px-defaults": "git://github.sw.ge.com/jrogerson/px-defaults.git#master",
+    "px-responsive-tools": "git://github.sw.ge.com/jrogerson/px-responsive-tools.git#master"
   }
 }
