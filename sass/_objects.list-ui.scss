@@ -1,10 +1,7 @@
-$inuit-list-ui-border-width : 0;
-$inuit-enable-list-ui--tiny : true;
-
-@import "lib/px-defaults/sass/settings.defaults";
+@import "lib/inuit-defaults/settings.defaults";
 @import "lib/inuit-responsive-settings/settings.responsive";
 @import "lib/inuit-functions/tools.functions";
-@import "lib/px-responsive-tools/sass/tools.responsive";
+@import "lib/inuit-responsive-tools/tools.responsive";
 @import "lib/inuit-list-ui/objects.list-ui";
 
 @if import-once('objects.list-ui') {
