@@ -1,7 +1,5 @@
 @import "lib/inuit-defaults/settings.defaults";
-@import "lib/inuit-responsive-settings/settings.responsive";
 @import "lib/inuit-functions/tools.functions";
-@import "lib/inuit-responsive-tools/tools.responsive";
 @import "lib/inuit-list-ui/objects.list-ui";
 
 @if import-once('objects.list-ui') {
