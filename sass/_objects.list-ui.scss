@@ -2,6 +2,8 @@
 @import "lib/inuit-functions/tools.functions";
 @import "lib/inuit-list-ui/objects.list-ui";
 
+$inuit-list-ui-text-color   : inherit !default;
+
 @if import-once('objects.list-ui') {
 
   @if ($inuit-list-ui-border-width > 0) {
@@ -12,6 +14,10 @@
       }
     }
 
+  }
+  
+  .list-ui {
+    color: $inuit-list-ui-text-color;
   }
   
   .list-ui-ml {
