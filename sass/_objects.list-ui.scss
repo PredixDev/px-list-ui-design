@@ -11,11 +11,9 @@
     .list-ui > li, .list-ui__item {
       &:last-child {
         border-bottom-width: 0;
-        @include media-query(desk) {
-          border-bottom-width: 1px;
-        }
       }
     }
+
   }
   
   .list-ui-ml {
