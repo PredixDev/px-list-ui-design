@@ -1,6 +1,14 @@
-@import "lib/inuit-defaults/settings.defaults";
-@import "lib/inuit-functions/tools.functions";
-@import "lib/inuit-list-ui/objects.list-ui";
+/*------------------------------------*\
+    #PX-LIST-UI
+\*------------------------------------*/
+
+/**
+ * A simple, keyline-delimited blocky list object for Predix Experience
+ */
+
+@import "inuit-defaults/settings.defaults";
+@import "inuit-functions/tools.functions";
+@import "inuit-list-ui/objects.list-ui";
 
 $inuit-list-ui-text-color   : inherit !default;
 
