@@ -7,7 +7,7 @@
   "description": "A simple, keyline-delimited blocky list object for Predix Experience",
   "main": "_objects.list-ui.scss",
   "keywords": [
-    "pdx",
+    "px",
     "sass",
     "list-ui"
   ],
@@ -22,7 +22,7 @@
     "tests"
   ],
   "dependencies": {
-    "inuit-defaults": "0.2.1",
+    "inuit-defaults": "~0.2.1",
     "inuit-list-ui": "~0.4.1"
   }
 }
