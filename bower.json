@@ -1,5 +1,5 @@
 {
-  "name": "px-list-ui",
+  "name": "px-list-ui-design",
   "version": "0.0.1",
   "authors": [
     "General Electric"
@@ -12,7 +12,7 @@
     "list-ui"
   ],
   "license": "Apache 2",
-  "homepage": "git://github.sw.ge.com/jrogerson/px-list-ui.git",
+  "homepage": "git://github.sw.ge.com/pxc/px-list-ui-design.git",
   "private": true,
   "ignore": [
     "**/.*",
