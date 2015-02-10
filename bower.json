@@ -23,6 +23,7 @@
   ],
   "dependencies": {
     "inuit-defaults": "~0.2.1",
-    "inuit-list-ui": "~0.4.1"
+    "inuit-list-ui": "~0.4.1",
+    "px-functions-design": "git://github.sw.ge.com/pxc/px-functions-design.git#master"
   }
 }
