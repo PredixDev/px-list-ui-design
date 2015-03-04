@@ -7,8 +7,8 @@
  * a `ul` or `ol`.
  */
 
-@import "inuit-defaults/settings.defaults";
-@import "px-functions-design/sass/tools.functions";
+@import "../inuit-defaults/settings.defaults";
+@import "../px-functions-design /tools.functions";
 
 // Predefine the variables below in order to alter and enable specific features.
 $inuit-list-ui-namespace        : $inuit-namespace !default;

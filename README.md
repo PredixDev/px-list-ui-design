@@ -17,7 +17,9 @@ Install this module and its dependencies using bower:
 
 Once installed, `@import` into your project's Sass file in its Objects layer:
 
-    @import "px-list-ui-design/sass/objects.list-ui";
+    @import "../px-list-ui-design/objects.list-ui";
+
+See [px-getting-started](https://github.sw.ge.com/pxc/px-getting-started#a-note-about-relative-import-paths) for an explanation of the `../`
 
 ## Import once
 
