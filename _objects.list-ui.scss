@@ -45,6 +45,7 @@ $inuit-list-ui-text-color       : inherit !default;
     padding: 0;
     list-style: none;
     border-top-width: $inuit-list-ui-border-width;
+    color: $inuit-list-ui-text-color;
   
     > li {
         @extend %#{$inuit-list-ui-namespace}list-ui__item;
@@ -142,18 +143,6 @@ $inuit-list-ui-text-color       : inherit !default;
       }
     }
   
-  }
-  
-  .list-ui {
-    color: $inuit-list-ui-text-color;
-  }
-  
-  .list-ui-ml {
-    margin-left: -$inuit-base-spacing-unit;
-  }
-  
-  .list-ui-pl {
-    padding-left: $inuit-base-spacing-unit;
   }
 
 }
