@@ -13,7 +13,7 @@
     "list-ui"
   ],
   "license": "Apache 2",
-  "homepage": "git://github.sw.ge.com/pxc/px-list-ui-design.git",
+  "homepage": "git://github.sw.ge.com/PXd/px-list-ui-design.git",
   "private": true,
   "ignore": [
     "**/.*",
@@ -24,6 +24,6 @@
   ],
   "dependencies": {
     "inuit-defaults": "~0.2.1",
-    "px-functions-design": "git://github.sw.ge.com/pxc/px-functions-design.git#master"
+    "px-functions-design": "git://github.sw.ge.com/PXd/px-functions-design.git#master"
   }
 }

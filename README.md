@@ -7,19 +7,19 @@ The Predix Experience List UI module creates blocky, keyline-delimited list item
 Px's List UI module depends on two other Px and inuitcss modules:
 
 * [settings.defaults](https://github.com/inuitcss/settings.defaults)
-* [px-functions-design](https://github.sw.ge.com/pxc/px-functions-design)
+* [px-functions-design](https://github.sw.ge.com/PXd/px-functions-design)
 
 ## Installation
 
 Install this module and its dependencies using bower:
 
-    bower install --save https://github.sw.ge.com/pxc/px-list-ui-design.git
+    bower install --save https://github.sw.ge.com/PXd/px-list-ui-design.git
 
 Once installed, `@import` into your project's Sass file in its Objects layer:
 
     @import "../px-list-ui-design/objects.list-ui";
 
-See [px-getting-started](https://github.sw.ge.com/pxc/px-getting-started#a-note-about-relative-import-paths) for an explanation of the `../`
+See [px-getting-started](https://github.sw.ge.com/PXd/px-getting-started#a-note-about-relative-import-paths) for an explanation of the `../`
 
 ## Import once
 
