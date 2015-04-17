@@ -4,9 +4,9 @@ The Predix Experience List UI module creates blocky, keyline-delimited list item
 
 ## Dependencies
 
-Px's List UI module depends on two other Px and inuitcss modules:
+Px's List UI module depends on two other PXd modules:
 
-* [settings.defaults](https://github.com/inuitcss/settings.defaults)
+* [px-defaults-design](https://github.sw.ge.com/PXd/px-defaults-design)
 * [px-functions-design](https://github.sw.ge.com/PXd/px-functions-design)
 
 ## Installation
