@@ -13,12 +13,6 @@
 // Predefine the variables below in order to alter and enable specific features.
 $inuit-list-ui-namespace        : $inuit-namespace !default;
 
-$inuit-list-ui-padding          : $inuit-base-spacing-unit !default;
-$inuit-list-ui-padding--tiny    : quarter($inuit-list-ui-padding) !default;
-$inuit-list-ui-padding--small   : halve($inuit-list-ui-padding) !default;
-$inuit-list-ui-padding--large   : double($inuit-list-ui-padding) !default;
-$inuit-list-ui-padding--huge    : quadruple($inuit-list-ui-padding) !default;
-
 $inuit-list-ui-border-width     : 1px !default;
 $inuit-list-ui-border-style     : solid !default;
 $inuit-list-ui-border-color     : #ccc !default;
@@ -55,7 +49,7 @@ $inuit-list-ui-text-color       : inherit !default;
   
     .#{$inuit-list-ui-namespace}list-ui__item,
     %#{$inuit-list-ui-namespace}list-ui__item {
-        padding: $inuit-list-ui-padding;
+        padding: $inuit-base-spacing-unit;
         border-bottom-width: $inuit-list-ui-border-width;
     }
   
@@ -74,7 +68,7 @@ $inuit-list-ui-text-color       : inherit !default;
   
         > .#{$inuit-list-ui-namespace}list-ui__item,
         > %#{$inuit-list-ui-namespace}list-ui__item {
-            padding: $inuit-list-ui-padding--tiny;
+            padding: $inuit-base-spacing-unit--tiny;
         }
   
     }
@@ -92,7 +86,7 @@ $inuit-list-ui-text-color       : inherit !default;
   
         > .#{$inuit-list-ui-namespace}list-ui__item,
         > %#{$inuit-list-ui-namespace}list-ui__item {
-            padding: $inuit-list-ui-padding--small;
+            padding: $inuit-base-spacing-unit--small;
         }
   
     }
@@ -110,7 +104,7 @@ $inuit-list-ui-text-color       : inherit !default;
   
         > .#{$inuit-list-ui-namespace}list-ui__item,
         > %#{$inuit-list-ui-namespace}list-ui__item {
-            padding: $inuit-list-ui-padding--large;
+            padding: $inuit-base-spacing-unit--large;
         }
   
     }
@@ -128,7 +122,7 @@ $inuit-list-ui-text-color       : inherit !default;
   
         > .#{$inuit-list-ui-namespace}list-ui__item,
         > %#{$inuit-list-ui-namespace}list-ui__item {
-            padding: $inuit-list-ui-padding--huge;
+            padding: $inuit-base-spacing-unit--huge;
         }
   
     }
