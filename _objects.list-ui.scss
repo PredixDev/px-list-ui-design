@@ -1,28 +1,36 @@
-/*------------------------------------*\
-    #PX-LIST-UI-DESIGN
-\*------------------------------------*/
-
-/**
- * The UI list object creates blocky list items with a keyline separator out of
- * a `ul` or `ol`.
- */
+////
+/// PX-LIST-UI-DESIGN
+/// The UI list object creates blocky list items with a keyline separator out of a `ul` or `ol`.
+/// @group px-list-ui-design
+////
 
 @import "../px-defaults-design/settings.defaults";
-@import "../px-functions-design/tools.functions";
+@import "../px-colors-design/settings.colors";
 
-// Predefine the variables below in order to alter and enable specific features.
+/// @type String [default] - Prepend value for all generated classes
 $inuit-list-ui-namespace        : $inuit-namespace !default;
 
+/// @type Number [default] - Border width
 $inuit-list-ui-border-width     : 1px !default;
-$inuit-list-ui-border-style     : solid !default;
-$inuit-list-ui-border-color     : #ccc !default;
 
+/// @type String [default] - Border style
+$inuit-list-ui-border-style     : solid !default;
+
+/// @type Color [default] - Border color
+$inuit-list-ui-border-color     : $gray4 !default;
+
+/// @type Boolean [default] - Produce CSS for list-uis with tiny padding?
 $inuit-enable-list-ui--tiny     : false !default;
+
+/// @type Boolean [default] - Produce CSS for list-uis with small padding?
 $inuit-enable-list-ui--small    : false !default;
+
+/// @type Boolean [default] - Produce CSS for list-uis with large padding?
 $inuit-enable-list-ui--large    : false !default;
+
+/// @type Boolean [default] - Produce CSS for list-uis with huge padding?
 $inuit-enable-list-ui--huge     : false !default;
 
-$inuit-list-ui-text-color       : inherit !default;
 
 @if import-once('objects.list-ui') {
   
@@ -39,7 +47,6 @@ $inuit-list-ui-text-color       : inherit !default;
     padding: 0;
     list-style: none;
     border-top-width: $inuit-list-ui-border-width;
-    color: $inuit-list-ui-text-color;
   
     > li {
         @extend %#{$inuit-list-ui-namespace}list-ui__item;
@@ -125,16 +132,6 @@ $inuit-list-ui-text-color       : inherit !default;
             padding: $inuit-base-spacing-unit--huge;
         }
   
-    }
-  
-  }
-  
-  @if ($inuit-list-ui-border-width > 0) {
-  
-    .list-ui > li, .list-ui__item {
-      &:last-child {
-        border-bottom-width: 0;
-      }
     }
   
   }
