@@ -2,24 +2,32 @@
 
 The Predix Experience List UI module creates blocky, keyline-delimited list items. This module is a fork of the [inuitcss list-ui module](https://github.com/inuitcss/objects.list-ui).
 
+## Demo
+
+You can review list bare styles and recommended markup here: https://github.build.ge.com/pages/PXd/px-list-ui-design
+
+## Sass Docs
+
+You can review Sass Documentation here: https://github.build.ge.com/pages/PXd/px-list-ui-design/sassdoc
+
 ## Dependencies
 
 Px's List UI module depends on two other PXd modules:
 
-* [px-defaults-design](https://github.sw.ge.com/PXd/px-defaults-design)
-* [px-functions-design](https://github.sw.ge.com/PXd/px-functions-design)
+* [px-colors-design](https://github.build.ge.com/PXd/px-colors-design)
+* [px-defaults-design](https://github.build.ge.com/PXd/px-defaults-design)
 
 ## Installation
 
 Install this module and its dependencies using bower:
 
-    bower install --save https://github.sw.ge.com/PXd/px-list-ui-design.git
+    bower install --save https://github.build.ge.com/PXd/px-list-ui-design.git
 
 Once installed, `@import` into your project's Sass file in its Objects layer:
 
     @import "../px-list-ui-design/objects.list-ui";
 
-See [px-getting-started](https://github.sw.ge.com/PXd/px-getting-started#a-note-about-relative-import-paths) for an explanation of the `../`
+See [px-getting-started](https://github.build.ge.com/PXd/px-getting-started#a-note-about-relative-import-paths) for an explanation of the `../`
 
 ## Import once
 
@@ -41,14 +49,6 @@ The following variables are available for use in the module:
     $inuit-list-ui-border-width
     $inuit-list-ui-border-style
     $inuit-list-ui-border-color
-
-The following dimension (padding) variables can be customized:
-
-    $inuit-list-ui-padding
-    $inuit-list-ui-padding--tiny
-    $inuit-list-ui-padding--small
-    $inuit-list-ui-padding--large
-    $inuit-list-ui-padding--huge
 
 Basic usage of the List UI module uses the required classes:
 
