@@ -4,7 +4,7 @@ The Predix Experience List UI module creates blocky, keyline-delimited list item
 
 ## Demo
 
-You can review list bare styles and recommended markup here: https://github.build.ge.com/pages/PXd/px-list-ui-design
+You can review List UI styles and recommended markup here: https://github.build.ge.com/pages/PXd/px-list-ui-design
 
 ## Sass Docs
 
@@ -16,6 +16,12 @@ Px's List UI module depends on two other PXd modules:
 
 * [px-colors-design](https://github.build.ge.com/PXd/px-colors-design)
 * [px-defaults-design](https://github.build.ge.com/PXd/px-defaults-design)
+
+## Upstream dependency
+
+The List UI module is also an upstream dependency in this meta kit:
+
+* [px-meta-lists-design](https://github.build.ge.com/PXd/px-meta-lists-design)
 
 ## Installation
 
@@ -70,9 +76,6 @@ The only valid children of the `.list-ui` node are `.list-ui__item`s.
 
 These classes are available if the variable flags listed above are set to `true`:
 
-* `list-ui--tiny`: Tiny list-uis.
-* `list-ui--small`: Small list-uis.
-* `list-ui--large`: Large list-uis.
-* `list-ui--huge`: Huge list-uis.
+* `list-ui--[tiny|small|large|huge]`: Different sizes for list-uis.
 
 The above classes adjust the padding on all sides of each `list-ui__item`.
