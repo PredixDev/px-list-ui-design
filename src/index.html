@@ -14,13 +14,43 @@
         <p>
           To use this module, follow the instructions in the
           <a href=https://github.build.ge.com/PXd/px-list-ui-design>README</a>.
+          <!-- build:remove -->
+          (For background on PXd, read the
+          <a href=https://github.build.ge.com/PXd/px-getting-started>Getting Started</a>
+          documentation.)
+          <!-- /build -->
         </p>
-        <a class=btn href=https://github.build.ge.com/PXd/px-list-ui-design>
+        <a class="btn btn--primary" href=https://github.build.ge.com/PXd/px-list-ui-design>
           <i class="fa fa-github u-mr--"></i>
           px-list-ui-design
         </a>
       </div>
+      <h2>How to Use</h2>
+      <p>Install via command line:</p>
+      <figure class="code u-mb+">
+        <code>
+          bower install --save https://github.build.ge.com/PXd/px-list-ui-design.git
+        </code>
+      </figure>
+      <p>Add to component Sass file:</p>
+      <figure class="code u-mb++">
+        <code>
+          @import "px-list-ui-design/_objects.list-ui.scss";
+        </code>
+      </figure>
       <h2>Tiny List UI</h2>
+      <h3>Sass Flag</h3>
+      <figure class="code">
+        <code>
+          $inuit-enable-list-ui--tiny : true;
+        </code>
+      </figure>
+      <small>
+        Flag must be set before
+        <code class="code code--inline">@import</code>
+        in component Sass file.
+      </small>
+      <h3>HTML</h3>
       <figure class="code u-mb+">
         <code>
           &lt;ul class="list-ui list-ui--tiny"&gt;
@@ -34,7 +64,7 @@
           &lt;/ul&gt;
         </code>
       </figure>
-      <ul class="list-ui list-ui--tiny">
+      <ul class="list-ui list-ui--tiny u-mb++">
         <li class=list-ui__item>List item</li>
         <li class=list-ui__item>List item</li>
         <li class=list-ui__item>List item</li>
@@ -42,6 +72,18 @@
         <li class=list-ui__item>List item</li>
       </ul>
       <h2>Small List UI</h2>
+      <h3>Sass Flag</h3>
+      <figure class="code">
+        <code>
+          $inuit-enable-list-ui--small : true;
+        </code>
+      </figure>
+      <small>
+        Flag must be set before
+        <code class="code code--inline">@import</code>
+        in component Sass file.
+      </small>
+      <h3>HTML</h3>
       <figure class="code u-mb+">
         <code>
           &lt;ul class="list-ui list-ui--small"&gt;
@@ -76,7 +118,7 @@
           &lt;/ul&gt;
         </code>
       </figure>
-      <ul class=list-ui>
+      <ul class="list-ui u-mb++">
         <li class=list-ui__item>List item</li>
         <li class=list-ui__item>List item</li>
         <li class=list-ui__item>List item</li>
@@ -84,6 +126,18 @@
         <li class=list-ui__item>List item</li>
       </ul>
       <h2>Large List UI</h2>
+      <h3>Sass Flag</h3>
+      <figure class="code">
+        <code>
+          $inuit-enable-list-ui--large : true;
+        </code>
+      </figure>
+      <small>
+        Flag must be set before
+        <code class="code code--inline">@import</code>
+        in component Sass file.
+      </small>
+      <h3>HTML</h3>
       <figure class="code u-mb+">
         <code>
           &lt;ul class="list-ui list-ui--large"&gt;
@@ -97,7 +151,7 @@
           &lt;/ul&gt;
         </code>
       </figure>
-      <ul class="list-ui list-ui--large">
+      <ul class="list-ui list-ui--large u-mb++">
         <li class=list-ui__item>List item</li>
         <li class=list-ui__item>List item</li>
         <li class=list-ui__item>List item</li>
@@ -105,6 +159,18 @@
         <li class=list-ui__item>List item</li>
       </ul>
       <h2>Huge List UI</h2>
+      <h3>Sass Flag</h3>
+      <figure class="code">
+        <code>
+          $inuit-enable-list-ui--huge : true;
+        </code>
+      </figure>
+      <small>
+        Flag must be set before
+        <code class="code code--inline">@import</code>
+        in component Sass file.
+      </small>
+      <h3>HTML</h3>
       <figure class="code u-mb+">
         <code>
           &lt;ul class="list-ui list-ui--huge"&gt;
