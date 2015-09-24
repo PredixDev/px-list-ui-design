@@ -2,13 +2,10 @@
 
 The Predix Experience List UI module creates blocky, keyline-delimited list items. This module is a fork of the [inuitcss list-ui module](https://github.com/inuitcss/objects.list-ui).
 
-## Demo
 
-You can review List UI styles and recommended markup here: https://github.com/pages/PredixDev/px-list-ui-design
 
-## Sass Docs
 
-You can review Sass Documentation here: https://github.com/pages/PredixDev/px-list-ui-design/sassdoc
+
 
 ## Dependencies
 
