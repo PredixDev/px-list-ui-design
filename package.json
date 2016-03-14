@@ -1,8 +1,8 @@
 {
   "name": "px-list-ui-design",
-  "version": "0.3.9",
+  "version": "0.3.10",
   "description": "A simple, keyline-delimited blocky list object for Predix Experience",
-  "private": true,
+  "private": false,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
