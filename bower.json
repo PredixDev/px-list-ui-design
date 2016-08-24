@@ -12,7 +12,6 @@
     "sass",
     "list-ui"
   ],
-  "license": "Apache 2",
   "homepage": "https://github.com/PredixDev/px-list-ui-design.git",
   "private": false,
   "ignore": [
