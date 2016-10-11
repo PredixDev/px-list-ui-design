@@ -21,8 +21,6 @@
     ".github",
     "scripts",
     "sass",
-    "css",
-    "sassdoc.json",
     "OSS_Notice.pdf"
   ],
   "dependencies": {
