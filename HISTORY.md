@@ -1,3 +1,8 @@
+v0.3.14
+==============================
+* Updated dependencies
+* Updated boilerplate files
+
 v0.3.13
 ==============================
 * fix bower.json
