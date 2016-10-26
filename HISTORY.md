@@ -1,3 +1,7 @@
+v0.3.15
+==============================
+* updated to px-sass-doc#0.2.8 and added more detail to 'use in you project'
+
 v0.3.14
 ==============================
 * Updated dependencies
