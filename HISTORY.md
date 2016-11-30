@@ -1,3 +1,7 @@
+v1.0.0
+==================
+* Reintroduce CSS style variables
+
 v0.3.20
 ==================
 * remove CSS style variables from 0.3.X release track
