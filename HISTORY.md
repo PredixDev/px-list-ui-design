@@ -1,3 +1,7 @@
+v2.0.0
+==================
+* Major bump for start of redesign
+
 v1.1.5
 ==================
 * updated demo page using px-demo classes
