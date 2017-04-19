@@ -1,4 +1,8 @@
-v2.0.0
+v2.0.0-prerelease-1
+==================
+* update styles for redesign
+
+v2.0.0-prerelease
 ==================
 * Major bump for start of redesign
 
