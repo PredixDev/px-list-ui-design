@@ -10,26 +10,31 @@
 /// Prepend value for all generated classes
 /// @group px-list-ui-design:variables:style
 /// @type String [default]
+/// @todo n/a
 $inuit-list-ui-namespace        : $inuit-namespace !default;
 
 /// Border width
 /// @group px-list-ui-design:variables:style
 /// @type Number [default]
+/// @todo n/a
 $inuit-list-ui-border-width     : 1px !default;
 
 /// Border style
 /// @group px-list-ui-design:variables:style
 /// @type String [default]
+/// @todo n/a
 $inuit-list-ui-border-style     : solid !default;
 
 /// Border color
 /// @group px-list-ui-design:variables:style
 /// @type Color [default]
+/// @todo --px-list-ui-border-color
 $inuit-list-ui-border-color     : var(--px-list-ui-border-color, $gray10) !default;
 
 /// Interior border color
 /// @group px-list-ui-design:variables:style
 /// @type Color [default]
+/// @todo --px-list-ui-separator-color
 $inuit-list-ui-separator-color  : var(--px-list-ui-separator-color, $gray5) !default;
 
 /// Enable list-uis with tiny padding?
