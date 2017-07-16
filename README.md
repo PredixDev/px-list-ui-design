@@ -1,17 +1,17 @@
-# List UI
+# px-list-ui-design
 
 The Predix UI List UI module creates blocky, keyline-delimited list items. This module is a fork of the [inuitcss list-ui module](https://github.com/inuitcss/objects.list-ui).
 
 ## Dependencies
 
-Predix UI's List UI module depends on two other PX modules:
+The px-list-ui-design module depends on two other Px modules:
 
 * [px-colors-design](https://github.com/PredixDev/px-colors-design)
 * [px-defaults-design](https://github.com/PredixDev/px-defaults-design)
 
 ## Upstream dependency
 
-The List UI module is also an upstream dependency in this meta kit:
+The px-list-ui-design module is also an upstream dependency in this meta kit:
 
 * [px-meta-lists-design](https://github.com/PredixDev/px-meta-lists-design)
 
@@ -64,4 +64,4 @@ These classes are available if the variable flags listed above are set to `true`
 
 The above classes adjust the padding on all sides of each `list-ui__item`.
 
-view the full API [here](https://predixdev.github.io/px-list-ui-design/)
+View the full API [here](https://predixdev.github.io/px-list-ui-design/)
