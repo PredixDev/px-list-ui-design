@@ -4,14 +4,14 @@ The Predix UI List UI module creates blocky, keyline-delimited list items. This 
 
 ## Dependencies
 
-The px-list-ui-design module depends on two other Px modules:
+The `px-list-ui-design` module depends on two other Px modules:
 
 * [px-colors-design](https://github.com/PredixDev/px-colors-design)
 * [px-defaults-design](https://github.com/PredixDev/px-defaults-design)
 
-## Upstream dependency
+## Upstream dependencies
 
-The px-list-ui-design module is also an upstream dependency in this meta kit:
+The `px-list-ui-design` module is also an upstream dependency in this meta kit:
 
 * [px-meta-lists-design](https://github.com/PredixDev/px-meta-lists-design)
 
@@ -40,7 +40,7 @@ The following variables are available for use in the module:
     $inuit-list-ui-border-style
     $inuit-list-ui-border-color
 
-Basic usage of the List UI module uses the required classes:
+Basic usage of the `px-list-ui-design` module uses the required classes:
 
     <ul class="list-ui">
         <li class="list-ui__item">
@@ -64,4 +64,4 @@ These classes are available if the variable flags listed above are set to `true`
 
 The above classes adjust the padding on all sides of each `list-ui__item`.
 
-View the full API [here](https://predixdev.github.io/px-list-ui-design/)
+View the full API [here](https://predixdev.github.io/px-list-ui-design/).
